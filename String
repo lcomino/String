@@ -1,0 +1,15 @@
+<?php
+
+class URL{
+
+function getUrls($string) {
+ $regex = '/https?\:\/\/[^\" ]+/i';
+ preg_match_all($regex, $string, $matches);
+ return ($matches[0]);
+}
+ 
+$urls = getUrls($string);
+ 
+}
+
+print_r($urls);
