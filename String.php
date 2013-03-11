@@ -35,12 +35,6 @@ class String{
 	 		 		 	
 	}
 
-} 
-
-$texto = "Teste pra ver se classe funciona! http://www.zoidepomba.com.br se funcionar o link vai aparecer! http://www.fronteirasemfim.com.br";
-
-$string = new String($texto);
-
-echo $string->transformUrls();
+}
 
 
